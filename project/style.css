@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:white;
+    color:black;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 1rem;
+    padding-top: 30px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.search-login {
+    display: flex;
+    align-items: center;
+}
+.search-login input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+.search-login button{
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color:white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color:black;
+    border-radius: 5px;
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+
+}
+.search-login:hover a{
+    color:white;
+}
+header .banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+header .banner img {
+    width: 800px;
+    height: 450px;
+    align-items: center;
+    float: left;
+    width: 50%;
+}
+.promo{
+     background-color: black;
+}
+header .promo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header .promo h1 {
+    font-size: 3rem;
+    content: "black";
+    display: table;
+    clear: both;
+    margin-left: 110px;
+
+}
+header .promo p{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.promo{
+    margin-top: 225px;
+    margin-left: 315px;
+    width: 632px;
+    height: 450px;
+
+}
+header .promo p {
+    font-size: 1.5rem;
+    content: "black";
+    display: table;
+    clear: both;
+}
+header .promo button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-style: none;
+    
+}
+main {
+    padding: 1rem;
+}
+.latest-drops {
+    text-align: center;
+}
+.latest-drops h2 {
+    margin-bottom: 1rem;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.product {
+    margin: 1rem;
+    text-align: center;
+}
+.product img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+a{
+     text-decoration: none;
+}
+.login{
+    margin-top: 30px;
+    color: #f4f4f4;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+h2{
+    margin-right: 1000px;
+}
+.product button {
+ border-radius: 15px;  
+ width: 100px;
+ height: 50px;
+ background-color:rgba(0, 0, 0, 0.925);
+ color: #f4f4f4;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+box-shadow: #f1f1f1;
+
+}
+.product button a:hover{
+color: #f1f1f1;
+}
+body {
+  font-family: Arial;
+  }
+ * {
+    box-sizing: border-box;
+  }
+    form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+form.example button:hover {
+    background: #2196F3;
+  }
+    form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000; 
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: scale(1.1); 
+}
+.transition-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: scale(1); 
+}
+
+   
+      
+   
